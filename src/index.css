@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 1rem 2rem;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* scrollbar thumb modification */
+::-webkit-scrollbar {
+  width: 0.3rem;
+  color: #14213d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4539e6;
+}
